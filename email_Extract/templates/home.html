@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="https://js.stripe.com/v3/"></script>
+    </head>
+<body>
+    <h1>Hello Frank</h1>
+    <div>HERE YOU WILL BE ABLE TO PURCHASE THE SUBSCRIPTION</div>
+    <button class="button is-primary" id="submitBtn">Purchase!</button>
+    <div id="test"></div>
+</body>
+
+{% load static %} 
+<script src="{% static 'email_extract/pay.js' %}"></script>
+
+</html>
